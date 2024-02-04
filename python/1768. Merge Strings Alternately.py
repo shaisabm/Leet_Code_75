@@ -13,17 +13,10 @@ def mergeAlternately(word1, word2):
       marged.append(word2[w2])
       w2 += 1
     x += 1
-    return marged
+  return ''.join(marged)
 
 
 
-
-
-
-
-
-
-
-word1 = ""
-word2 = ""
-mergeAlternately(word1, word2)
+word1 = "abc"
+word2 = "pqr"
+print(mergeAlternately(word1, word2))
